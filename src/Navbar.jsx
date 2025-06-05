@@ -9,7 +9,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <>
       <div className="fixed w-full bg-gray-900 text-white z-50 shadow-lg">
